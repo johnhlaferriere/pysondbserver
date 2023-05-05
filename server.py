@@ -17,9 +17,9 @@ import socketserver
 from pysondb.config import Config
 
 
-from errors import DatabaseNotFoundError
-from errors import DatabaseAlreadyExistsError
-from errors import SectionNotFoundError
+from pysondb.errors import DatabaseNotFoundError
+from pysondb.errors import DatabaseAlreadyExistsError
+from pysondb.errors import SectionNotFoundError
 
 from enum import Enum
 from copy import deepcopy
@@ -66,14 +66,14 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
 
         super().__init__(request, client_address, server)
 
-    #@classmethod
+    
     def _process_error(self, e):
         rval = {}
         rval["error"] = e.__class__.__name__
         rval["data"] = e.message
         return rval
 
-    #@classmethod
+    
     def use_db(self, data: Dict):
         retval = RETVAL.copy()
         dbname = data['dbname']
@@ -94,7 +94,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+    
     def use_section(self,data:Dict):
         retval = RETVAL.copy()
         section = data['section']
@@ -108,7 +108,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+    
     def create_db(self, data: Dict):
         retval = RETVAL.copy()
         dbname = data["dbname"]
@@ -137,7 +137,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+    
     def add(self, data: Dict) -> Dict:
         retval = RETVAL.copy()
         try:
@@ -147,7 +147,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+    
     def add_many(self, data: Dict) ->Dict:
         retval = RETVAL.copy()
         try:
@@ -159,7 +159,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+    
     def add_new_key(self, data: Dict)->Dict:
         retval = RETVAL.copy()
         try:
@@ -171,7 +171,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+    
     def add_section(self, data: Dict) ->Dict:
         retval = RETVAL.copy()
         try:
@@ -181,7 +181,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+    
     def get_all(self, data: Dict) -> Dict:
         retval = RETVAL.copy()
         try:
@@ -190,7 +190,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+    
     def get_all_by_section(self, data: Dict) -> Dict:
         retval = RETVAL.copy()
         try:
@@ -199,7 +199,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+    
     def get_by_id(self, data: Dict) -> Dict:
         retval = RETVAL.copy()
         try:
@@ -207,7 +207,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+    
     def get_by_query(self, data: Dict) -> Dict:
         retval = RETVAL.copy()
         try:
@@ -216,7 +216,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+    
     def update_by_id(self, data: Dict) ->Dict:
         retval = RETVAL.copy()
         try:
@@ -226,7 +226,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+    
     def update_by_query(self, data: Dict) ->Dict:
         retval = RETVAL.copy()
         try:
@@ -238,7 +238,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+    
     def delete_by_id(self, data: Dict) ->Dict:
         retval = RETVAL.copy()
         try:
@@ -248,7 +248,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+    
     def delete_by_query(self, data: Dict) ->Dict:
         retval = RETVAL.copy()
         try:
@@ -258,7 +258,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+    
     def purge(self, data: Dict) -> Dict:
         retval = RETVAL.copy()
         try:
@@ -268,7 +268,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+    
     def purge_all(self, data: Dict) -> Dict:
         retval = RETVAL.copy()
         try:
@@ -278,8 +278,9 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+    
     def handle(self) ->None:
+        print ("Client Connection Established")
         while True:
             try:
                 self.data = self.rfile.readline().strip()
@@ -289,20 +290,33 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
                 print(self.data)
                 d = json.loads(self.data)
                 retval = json.dumps(self._commands.get(d["cmd"])(d["payload"]))
+                print(f"returning value: {retval}")
                 self.wfile.write(len(retval).to_bytes(8, "big"))
                 self.wfile.write(bytes(retval, encoding="utf8"))
             except:
+                print ("Client Connection terminated")
                 return
 
 
 def main() -> int:
+    print("pysondb server starting")
     global config
     config = Config("config.json")
     c = config.get_config()
+    print ("config loaded")
     HOST, PORT = c["host"], c["port"]
+    print (f"Server started on {HOST}:{PORT}")
     server = socketserver.ThreadingTCPServer((HOST, PORT), ClientTCPHandler)
-    server.serve_forever()
-    return 0
+
+    print("Available databases:")
+    for db in c['databases']:
+        print("\t"+db['name'])
+    try:
+        print ("Running")
+        server.serve_forever()
+    except Exception:
+        print ("server terminated")
+        return 0
 
 if __name__ == "__main__":
     main()

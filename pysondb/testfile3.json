@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "keys": {
+        "test2": [
+            "first",
+            "last"
+        ]
+    },
+    "test2": {}
+}
