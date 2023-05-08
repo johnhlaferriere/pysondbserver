@@ -1,18 +1,19 @@
 {
-    "host": "localhost",
-    "port": 9999,
-    "databases": [
-        {
-            "name": "testfile",
-            "filename": "testfile.json"
-        },
-        {
-            "name": "testfile2",
-            "filename": "testfile2.json"
-        },
-        {
-            "name": "testfile3",
-            "filename": "testfile3.json"
-        }
-    ]
+  "host": "localhost",
+  "port": 9999,
+  "path": "database",
+  "databases": [
+    {
+      "name": "testfile",
+      "filename": "testfile.json"
+    },
+    {
+      "name": "testfile2",
+      "filename": "testfile2.json"
+    },
+    {
+      "name": "testfile3",
+      "filename": "testfile3.json"
+    }
+  ]
 }

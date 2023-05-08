@@ -13,13 +13,15 @@ except ImportError:
     import json as json
 
 import socketserver
+import uuid
 
 from pysondb.config import Config
 
 
-from errors import DatabaseNotFoundError
-from errors import DatabaseAlreadyExistsError
-from errors import SectionNotFoundError
+from pysondb.errors import DatabaseNotFoundError
+from pysondb.errors import DatabaseAlreadyExistsError
+from pysondb.errors import SectionNotFoundError
+from pysondb.errors import MalformedIdGeneratorError
 
 from enum import Enum
 from copy import deepcopy
@@ -55,12 +57,15 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
             "PURGE_ALL": self.purge_all,
             "USE_DB": self.use_db,
             "USE_SECTION":self.use_section,
+            "SET_ID_GENERATOR":self.set_id_generator,
         }
+
         self._db_list = {}
         for d in config.get_config()["databases"]:
+            path = config.get_pwd()+"/"+config.get_config()["path"]+"/"+d["filename"]
             self._db_list[d["name"]] = {
                 "filename": d["filename"],
-                "handle": PysonDB(d["filename"], False),
+                "handle": PysonDB(path, False),
             }
         self._db :Type[PysonDB] = None
 
@@ -113,6 +118,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         dbname = data["dbname"]
         filename = f"{dbname}.json"
         force = data["force"]
+        path = config.get_pwd()+"/"+config.getconfig()["path"]+"/"+filename
         try:
             if not force:
                 if dbname in self._db_list or exists(filename):
@@ -120,14 +126,14 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
                         f"database {dbname} already exists"
                     )
             else:
-                if exists(filename):
-                    remove(filename)
-            newdb = PysonDB(filename)
+                if exists(path):
+                    remove(path)
+            newdb = PysonDB(path)
             del newdb
             config.add_db(dbname)
             self._db_list[dbname] = {
                 "filename": filename,
-                "handle": PysonDB(filename, False),
+                "handle": PysonDB(path, False),
             }
             if data["use"]:
                 self._db = self._db_list[dbname]["handle"]
@@ -278,6 +284,24 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
             return self._process_error(e)
 
 
+    def set_id_generator(self,data: Dict) ->Dict:
+        retval = RETVAL.copy()
+        fn = data["fn"]
+        try:
+            try:
+                _fn = eval(fn)
+            except:
+                raise MalformedIdGeneratorError(
+                    f"Function {fn} is malformed.")
+            if not callable(_fn):
+                raise TypeError(
+                    f'"Function" must be a callable and not {type(fn)!r}')
+            self._db.set_id_generator(_fn)
+            return retval
+        except Exception as e:
+            return self._process_error(e)
+
+
     def handle(self) ->None:
         while True:
             try:
@@ -295,11 +319,19 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
 
 
 def main() -> int:
+    print ("pysondb server starting")
     global config
     config = Config("config.json")
+    print ("config loaded")
     c = config.get_config()
+    print (f"execuition path : {config.get_pwd()}")
     HOST, PORT = c["host"], c["port"]
     server = socketserver.ThreadingTCPServer((HOST, PORT), ClientTCPHandler)
+    print (f"server started on {HOST}:{PORT}")
+    print("Available databases:")
+    for f in c["databases"]:
+        print (f"\t{f['name']}")
+    print ("server accepting requests")
     server.serve_forever()
     return 0
 

@@ -13,6 +13,7 @@ from typing import Union
 from typing import Dict
 
 from pysondb.errors import MissingConfigError
+from os import getcwd
 
 
 
@@ -21,6 +22,7 @@ class Config():
     @classmethod
     def __init__(self,filename:str) -> None:
         self._filename : str = filename
+        self._pwd = getcwd()
         if (exists(self._filename)):
             with open(self._filename, encoding="utf-8", mode="r") as f:
                 self._config :dict = json.load(f)
@@ -37,6 +39,10 @@ class Config():
     @classmethod
     def get_config(self) -> Dict:
         return self._config
+
+    @classmethod 
+    def get_pwd(self):
+        return self._pwd
 
     def add_db(self,db:str) -> bool:
         self._config["databases"].append({"name":db,"filename":db+".json"})
