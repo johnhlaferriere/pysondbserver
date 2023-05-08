@@ -1,0 +1,370 @@
+{
+    "version": 2,
+    "keys": {
+        "data": [
+            "age",
+            "foo",
+            "name"
+        ],
+        "test": [
+            "first",
+            "last"
+        ],
+        "test2": [
+            "first",
+            "last"
+        ]
+    },
+    "test": {
+        "244699902148572675": {
+            "first": "Bill",
+            "last": "Smith"
+        }
+    },
+    "data": {
+        "880641483635648197": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "214185540469607566": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "226531852712859389": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "623223703153783568": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "101408798160394310": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "208929981774155985": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "217790253929630631": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "111604229280454948": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "180512708202725342": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "225182741742475696": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "223194373305578140": {
+            "name": "fredy",
+            "age": 19,
+            "foo": null
+        },
+        "302073369103183684": {
+            "name": "kenny",
+            "age": 19,
+            "foo": null
+        },
+        "164753733219969236": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "277157249646299297": {
+            "name": "fredy",
+            "age": 19,
+            "foo": null
+        },
+        "697051758621216142": {
+            "name": "kenny",
+            "age": 19,
+            "foo": null
+        },
+        "418732060608381881": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "702516557663069912": {
+            "name": "fredy",
+            "age": 19,
+            "foo": null
+        },
+        "227504285067969031": {
+            "name": "kenny",
+            "age": 19,
+            "foo": null
+        },
+        "265335354731569167": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "208693406167638973": {
+            "name": "fredy",
+            "age": 19,
+            "foo": null
+        },
+        "141742364381923935": {
+            "name": "kenny",
+            "age": 19,
+            "foo": null
+        },
+        "278288594113858975": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "338890722982576768": {
+            "name": "fredy",
+            "age": 19,
+            "foo": null
+        },
+        "147475303708525905": {
+            "name": "kenny",
+            "age": 19,
+            "foo": null
+        },
+        "347244757665592706": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "180354636389772150": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "153269058407150177": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "312006753227892252": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "822132408335678714": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "392409543328742368": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "146773225559662444": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "697173817497993153": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "317731179981430901": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "281489495571106039": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "145773855445106018": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "428211781708829527": {
+            "name": "fredy",
+            "age": 19,
+            "foo": null
+        },
+        "414320224672229215": {
+            "name": "kenny",
+            "age": 19,
+            "foo": null
+        },
+        "328878978341169246": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "122237259089804035": {
+            "name": "fredy",
+            "age": 19,
+            "foo": null
+        },
+        "307227576718213647": {
+            "name": "kenny",
+            "age": 19,
+            "foo": null
+        },
+        "225860999809695300": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "738439262771847396": {
+            "name": "fredy",
+            "age": 19,
+            "foo": null
+        },
+        "264359422816134844": {
+            "name": "kenny",
+            "age": 19,
+            "foo": null
+        },
+        "657925230178196895": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "209474932586016462": {
+            "name": "fredy",
+            "age": 19,
+            "foo": null
+        },
+        "167772874784072248": {
+            "name": "kenny",
+            "age": 19,
+            "foo": null
+        },
+        "315446804145412502": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "352121699276179128": {
+            "name": "fredy",
+            "age": 19,
+            "foo": null
+        },
+        "336356797303873024": {
+            "name": "kenny",
+            "age": 19,
+            "foo": null
+        },
+        "168489270265057998": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "455814707158277016": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "127170934021443490": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "200086968297275141": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "196653108321955796": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "277999311695754523": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "207433097500239825": {
+            "name": "fredy",
+            "age": 19,
+            "foo": null
+        },
+        "162985354095515080": {
+            "name": "kenny",
+            "age": 19,
+            "foo": null
+        },
+        "114296210945987839": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "310415054009279875": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "141689347012664465": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "238612410504573103": {
+            "age": 4,
+            "name": "mathew",
+            "foo": null
+        },
+        "246935674981294164": {
+            "name": "fredy",
+            "age": 19,
+            "foo": null
+        },
+        "319929836453728724": {
+            "name": "kenny",
+            "age": 19,
+            "foo": null
+        },
+        "171281103018002217": {
+            "age": 4,
+            "name": "mathew",
+            "foo": "bar"
+        },
+        "118178697361039188": {
+            "age": 4,
+            "name": "mathew",
+            "foo": "bar"
+        },
+        "105836925479574164": {
+            "age": 4,
+            "name": "mathew",
+            "foo": "bar"
+        }
+    },
+    "test2": {
+        "242932614089581479": {
+            "first": "Bill",
+            "last": "Smith"
+        },
+        "235475654054474789": {
+            "first": "Bill",
+            "last": "Smith"
+        },
+        "168891018965405687": {
+            "first": "Bill",
+            "last": "Smith"
+        }
+    }
+}

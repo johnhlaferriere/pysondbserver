@@ -66,14 +66,13 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
 
         super().__init__(request, client_address, server)
 
-    #@classmethod
     def _process_error(self, e):
         rval = {}
         rval["error"] = e.__class__.__name__
         rval["data"] = e.message
         return rval
 
-    #@classmethod
+
     def use_db(self, data: Dict):
         retval = RETVAL.copy()
         dbname = data['dbname']
@@ -94,7 +93,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+
     def use_section(self,data:Dict):
         retval = RETVAL.copy()
         section = data['section']
@@ -108,7 +107,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+
     def create_db(self, data: Dict):
         retval = RETVAL.copy()
         dbname = data["dbname"]
@@ -137,7 +136,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+
     def add(self, data: Dict) -> Dict:
         retval = RETVAL.copy()
         try:
@@ -147,7 +146,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+
     def add_many(self, data: Dict) ->Dict:
         retval = RETVAL.copy()
         try:
@@ -159,7 +158,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+
     def add_new_key(self, data: Dict)->Dict:
         retval = RETVAL.copy()
         try:
@@ -171,7 +170,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+
     def add_section(self, data: Dict) ->Dict:
         retval = RETVAL.copy()
         try:
@@ -181,7 +180,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+
     def get_all(self, data: Dict) -> Dict:
         retval = RETVAL.copy()
         try:
@@ -190,7 +189,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+
     def get_all_by_section(self, data: Dict) -> Dict:
         retval = RETVAL.copy()
         try:
@@ -199,7 +198,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+
     def get_by_id(self, data: Dict) -> Dict:
         retval = RETVAL.copy()
         try:
@@ -207,7 +206,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+
     def get_by_query(self, data: Dict) -> Dict:
         retval = RETVAL.copy()
         try:
@@ -216,7 +215,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+
     def update_by_id(self, data: Dict) ->Dict:
         retval = RETVAL.copy()
         try:
@@ -226,7 +225,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+
     def update_by_query(self, data: Dict) ->Dict:
         retval = RETVAL.copy()
         try:
@@ -238,7 +237,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+
     def delete_by_id(self, data: Dict) ->Dict:
         retval = RETVAL.copy()
         try:
@@ -248,7 +247,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+
     def delete_by_query(self, data: Dict) ->Dict:
         retval = RETVAL.copy()
         try:
@@ -258,7 +257,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+
     def purge(self, data: Dict) -> Dict:
         retval = RETVAL.copy()
         try:
@@ -268,7 +267,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+
     def purge_all(self, data: Dict) -> Dict:
         retval = RETVAL.copy()
         try:
@@ -278,7 +277,7 @@ class ClientTCPHandler(socketserver.StreamRequestHandler):
         except Exception as e:
             return self._process_error(e)
 
-    #@classmethod
+
     def handle(self) ->None:
         while True:
             try:
