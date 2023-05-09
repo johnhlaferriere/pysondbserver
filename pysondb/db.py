@@ -34,7 +34,7 @@ from pysondb.errors import MalformedQueryError
 
 class PysonDB:
 
-    #@classmethod
+    
     def __init__(self, filename: str, auto_update: bool = True, indent: int = 4) -> None:
         self.filename = filename
         self.auto_update = auto_update
@@ -45,7 +45,7 @@ class PysonDB:
 
         self._gen_db_file()
 
-    #@classmethod
+    
     def _load_file(self) -> DBSchemaType:
         if self.auto_update:
             with open(self.filename, encoding='utf-8', mode='r') as f:
@@ -53,7 +53,7 @@ class PysonDB:
         else:
             return deepcopy(self._au_memory)
 
-    #@classmethod
+    
     def _dump_file(self, data: DBSchemaType) -> None:
         if self.auto_update:
             with open(self.filename, encoding='utf-8', mode='w') as f:
@@ -62,7 +62,7 @@ class PysonDB:
             self._au_memory = deepcopy(data)
         return None
 
-    #@classmethod
+    
     def _gen_db_file(self) -> None:
         if self.auto_update:
             if not Path(self.filename).is_file():
@@ -72,12 +72,12 @@ class PysonDB:
                 )
                 self.lock.release()
 
-    #@classmethod
+    
     def _gen_id(self) -> str:
         # generates a random 18 digit uuid
         return str(int(uuid.uuid4()))[:18]
 
-    #@classmethod
+    
     def force_load(self) -> None:
         """
         Used when the data from a file needs to be loaded when auto update is turned off.
@@ -87,7 +87,7 @@ class PysonDB:
             self._au_memory = self._load_file()
             self.auto_update = False
 
-    #@classmethod
+    
     def commit(self) -> None:
         if not self.auto_update:
             self.auto_update = True
@@ -97,7 +97,7 @@ class PysonDB:
     def set_id_generator(self, fn: IdGeneratorType) -> None:
         self._id_generator = fn
     
-    #@classmethod
+    
     def add(self,section:str, data: object) -> Dict:
         if not isinstance(data, dict):
             raise TypeError(f'data must be of type dict and not {type(data)}')
@@ -127,7 +127,7 @@ class PysonDB:
             raise SectionNotFoundError(
                f"section: {section} must existing in database ") 
     
-    #@classmethod
+    
     def add_many(self, section:str, data: object, json_response: bool = False) -> Dict: #Union[SingleDataType, None]:
         if not data:
             return None
@@ -174,7 +174,7 @@ class PysonDB:
             raise SectionNotFoundError(
                f"section: {section} must existing in database ") 
 
-    #@classmethod
+    
     def get_all(self) -> Dict: #ReturnWithIdType:
         with self.lock:
             data = self._load_file()
@@ -184,7 +184,7 @@ class PysonDB:
                 return data
         return ""
 
-    #@classmethod
+    
     def get_all_by_section(self,section:str) ->Dict:
         try:
             with self.lock:
@@ -196,7 +196,7 @@ class PysonDB:
             raise SectionNotFoundError(
                f"section: {section} must existing in database ") 
 
-    #@classmethod    
+        
     def get_by_id(self,section:str, id: str) -> Dict: #SingleDataType:
         if not isinstance(id, str):
             raise TypeError(
@@ -217,7 +217,7 @@ class PysonDB:
             raise SectionNotFoundError(
                f"section: {section} must existing in database ") 
 
-    #@classmethod
+    
     def get_by_query(self,section:str, query: QueryType) -> Dict: #ReturnWithIdType:
         try:
             _query = eval(query)
@@ -241,7 +241,7 @@ class PysonDB:
             raise SectionNotFoundError(
                f"section: {section} must existing in database ") 
 
-    #@classmethod
+    
     def update_by_id(self,section:str, id: str, new_data: object) -> Dict: #SingleDataType:
         if not isinstance(new_data, dict):
             raise TypeError(
@@ -271,7 +271,7 @@ class PysonDB:
             raise SectionNotFoundError(
                f"section: {section} must existing in database ") 
 
-    #@classmethod
+    
     def update_by_query(self,section:str, query: QueryType, new_data: object) -> Dict: #List[str]:
         try:
             _query = eval(query)
@@ -311,7 +311,7 @@ class PysonDB:
             raise SectionNotFoundError(
                f"section: {section} must existing in database ") 
 
-    #@classmethod
+    
     def delete_by_id(self,section:str, id: str) -> Dict: #None:
         try:
             with self.lock:
@@ -328,7 +328,7 @@ class PysonDB:
             raise SectionNotFoundError(
                f"section: {section} must existing in database ") 
 
-    #@classmethod
+    
     def delete_by_query(self,section:str, query: QueryType) -> List[str]:
         try:
             _query = eval(query)
@@ -356,7 +356,7 @@ class PysonDB:
             raise SectionNotFoundError(
                f"section: {section} must existing in database ") 
 
-    #@classmethod
+    
     def purge(self,section:str) -> Dict:
         try:
             with self.lock:
@@ -375,11 +375,11 @@ class PysonDB:
             raise SectionNotFoundError(
                f"section: {section} must existing in database ") 
 
-    #@classmethod
+    
     def purge_all(self):
         pass
 
-    #@classmethod
+    
     def add_new_key(self, section:str, key: str, default: Optional[NewKeyValidTypes] = None) ->Dict:
         if default is not None:
             if not isinstance(default, (list, str, int, bool, dict)):
@@ -401,7 +401,7 @@ class PysonDB:
             raise SectionNotFoundError(
                f"section: {section} must exist in database ") 
 
-    #@classmethod
+    
     def add_section(self,section:str) :
         with self.lock:
             data = self._load_file()

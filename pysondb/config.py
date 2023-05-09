@@ -19,7 +19,7 @@ from os import getcwd
 
 class Config():
 
-    @classmethod
+    
     def __init__(self,filename:str) -> None:
         self._filename : str = filename
         self._pwd = getcwd()
@@ -31,16 +31,16 @@ class Config():
                 f'the config file :{self._filename} does not exist.')
                 )
 
-    @classmethod
+    
     def _save(self) -> None:
         with open(self._filename, encoding='utf-8', mode='w') as f:
             json.dump(self._config, f,indent=4)
 
-    @classmethod
+    
     def get_config(self) -> Dict:
         return self._config
 
-    @classmethod 
+     
     def get_pwd(self):
         return self._pwd
 
@@ -49,7 +49,7 @@ class Config():
         self._save()
         return True
 
-    @classmethod
+    
     def del_db(self,dbname:str) -> bool:
         dbs = self._config["databases"]
         for db in dbs:
@@ -60,7 +60,7 @@ class Config():
                 return True
         return False
 
-    @classmethod
+    
     def exists(self,dbname:str) -> bool:
         for db in self._config:
             if db["name"] == dbname:
