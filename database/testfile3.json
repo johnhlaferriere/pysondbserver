@@ -1,10 +1,21 @@
 {
-    "version": 2,
-    "keys": {
-        "test2": [
-            "first",
-            "last"
-        ]
-    },
-    "test2": {}
+  "version": 2,
+  "keys": {
+    "test2": [
+      "first",
+      "last"
+    ],
+    "google_devices": [
+      "attributes",
+      "name",
+      "roomHint",
+      "states",
+      "suv",
+      "traits",
+      "type",
+      "willReportState"
+    ]
+  },
+  "test2": {},
+  "google_devices": {}
 }

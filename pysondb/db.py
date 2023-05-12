@@ -128,7 +128,7 @@ class PysonDB:
                f"section: {section} must existing in database ") 
     
     
-    def add_many(self, section:str, data: object, json_response: bool = False) -> Dict: #Union[SingleDataType, None]:
+    def add_many(self, section:str, data: object, json_response: bool = True) -> Dict: #Union[SingleDataType, None]:
         if not data:
             return None
 
@@ -141,7 +141,8 @@ class PysonDB:
                'all the new data in the data list must of type dict')
         try:
             with self.lock:
-                new_data: SingleDataType = {}
+                #new_data: SingleDataType = {}
+                new_ids = []
                 db_data = self._load_file()
                 # verify all the keys in all the dicts in the list are valid
                 keys = db_data['keys'][section]
@@ -167,9 +168,11 @@ class PysonDB:
                     _id = str(self._id_generator())
                     db_data[section][_id] = d
                     if json_response:
-                        new_data[_id] = d
+                        new_ids.append(_id)
+                        #new_data[_id] = d
                 self._dump_file(db_data)
-                return  new_data if json_response else ""
+                return  new_ids if json_response else True
+                #return  new_data if json_response else True
         except KeyError:
             raise SectionNotFoundError(
                f"section: {section} must existing in database ") 
@@ -402,7 +405,7 @@ class PysonDB:
                f"section: {section} must exist in database ") 
 
     
-    def add_section(self,section:str) :
+    def add_section(self,section:str) -> str:
         with self.lock:
             data = self._load_file()
             if section in data['keys']:
@@ -411,3 +414,4 @@ class PysonDB:
             data['keys'][section] = []
             data[section] = {}
             self._dump_file(data)
+            return section
