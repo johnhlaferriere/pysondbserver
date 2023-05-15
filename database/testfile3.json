@@ -1,21 +1,784 @@
 {
-  "version": 2,
-  "keys": {
-    "test2": [
-      "first",
-      "last"
-    ],
-    "google_devices": [
-      "attributes",
-      "name",
-      "roomHint",
-      "states",
-      "suv",
-      "traits",
-      "type",
-      "willReportState"
-    ]
-  },
-  "test2": {},
-  "google_devices": {}
+    "version": 2,
+    "keys": {
+        "test2": [
+            "first",
+            "last"
+        ],
+        "google_devices": [
+            "attributes",
+            "name",
+            "roomHint",
+            "states",
+            "suv",
+            "traits",
+            "type",
+            "willReportState"
+        ]
+    },
+    "test2": {},
+    "google_devices": {
+        "e317144f-93fb-4fc1-b92d-076cac117e1d": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop",
+                "action.devices.traits.Timer"
+            ],
+            "name": {
+                "name": "Sprinkler1",
+                "defaultNames": [
+                    "Sprinkler1"
+                ],
+                "nicknames": [
+                    "Sprinkler1"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "pausable": true,
+                "availableZones": [],
+                "maxTimerLimitSec": 1200,
+                "commandOnlyTimer": false
+            },
+            "states": {
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED",
+                "timerRemainingSec": 940,
+                "timerPaused": false,
+                "isPaused": false,
+                "isRunning": true,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "6c73c0e9-3634-4a77-a5cf-e99695315d85": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff",
+                "action.devices.traits.Brightness",
+                "action.devices.traits.ColorSetting",
+                "action.devices.traits.LightEffects"
+            ],
+            "name": {
+                "name": "light2",
+                "nicknames": [
+                    "light2"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false,
+                "commandOnlyBrightness": false,
+                "commandOnlyColorSetting": false,
+                "colorModel": "rgb",
+                "colorTemperatureRange": {
+                    "temperatureMinK": 2000,
+                    "temperatureMaxK": 9000
+                },
+                "defaultSleepDuration": 1800,
+                "defaultWakeDuration": 1800,
+                "supportedEffects": [
+                    "colorLoop",
+                    "wake",
+                    "sleep"
+                ]
+            },
+            "states": {
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED",
+                "brightness": 100,
+                "color": {
+                    "temperatureK": 7500
+                },
+                "activeLightEffect": "",
+                "lightEffectEndUnixTimestampSec": 0,
+                "id": "",
+                "activeEmulatedLightEffect": "",
+                "emulatedLightEffectEndUnixTimestampSec": 0,
+                "expectedEmulatedEffectBrightness": {},
+                "expectedEmulatedEffectColorSetting": {},
+                "on": false
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "da1cd8b9-c711-4eeb-bb5c-fd938dc01436": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "outlet1",
+                "nicknames": [
+                    "outlet1"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED",
+                "on": true,
+                "brightness": 83
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "8343d5a3-188f-4e45-98ec-923026311913": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "outlet1",
+                "nicknames": [
+                    "outlet1"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED",
+                "on": true,
+                "brightness": 83
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "51b85a67-95c2-4fd0-8fd9-0f24717fbbb1": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "outlet1",
+                "nicknames": [
+                    "outlet1"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED",
+                "on": true,
+                "brightness": 83
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "87c2b18b-0fc4-4d38-b22e-729dba596bf6": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "outlet1",
+                "nicknames": [
+                    "outlet1"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED",
+                "on": true,
+                "brightness": 83
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "01c86c20-061d-4729-a87d-d28833a06525": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "outlet1",
+                "nicknames": [
+                    "outlet1"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED",
+                "on": true,
+                "brightness": 83
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "e0c93d38-f3c9-4a54-9d0d-2bab05034e40": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop",
+                "action.devices.traits.Timer"
+            ],
+            "name": {
+                "name": "Sprinkler1",
+                "defaultNames": [
+                    "Sprinkler1"
+                ],
+                "nicknames": [
+                    "Sprinkler1"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "pausable": true,
+                "availableZones": [],
+                "maxTimerLimitSec": 1200,
+                "commandOnlyTimer": false
+            },
+            "states": {
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED",
+                "timerRemainingSec": 940,
+                "timerPaused": false,
+                "isPaused": false,
+                "isRunning": true,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "d68f9549-e99e-4f4d-99ab-dc9248a72e09": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff",
+                "action.devices.traits.Brightness",
+                "action.devices.traits.ColorSetting",
+                "action.devices.traits.LightEffects"
+            ],
+            "name": {
+                "name": "light2",
+                "nicknames": [
+                    "light2"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false,
+                "commandOnlyBrightness": false,
+                "commandOnlyColorSetting": false,
+                "colorModel": "rgb",
+                "colorTemperatureRange": {
+                    "temperatureMinK": 2000,
+                    "temperatureMaxK": 9000
+                },
+                "defaultSleepDuration": 1800,
+                "defaultWakeDuration": 1800,
+                "supportedEffects": [
+                    "colorLoop",
+                    "wake",
+                    "sleep"
+                ]
+            },
+            "states": {
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED",
+                "brightness": 100,
+                "color": {
+                    "temperatureK": 7500
+                },
+                "activeLightEffect": "",
+                "lightEffectEndUnixTimestampSec": 0,
+                "id": "",
+                "activeEmulatedLightEffect": "",
+                "emulatedLightEffectEndUnixTimestampSec": 0,
+                "expectedEmulatedEffectBrightness": {},
+                "expectedEmulatedEffectColorSetting": {},
+                "on": false
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "17003cdc-fde7-4113-b34f-a717da862a5b": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "outlet1",
+                "nicknames": [
+                    "outlet1"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED",
+                "on": true,
+                "brightness": 83
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "9f7de88d-8ba2-4a3d-8ad6-8220d7dba379": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "outlet1",
+                "nicknames": [
+                    "outlet1"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED",
+                "on": true,
+                "brightness": 83
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "6d270598-25da-495e-924d-a56631149faf": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "outlet1",
+                "nicknames": [
+                    "outlet1"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED",
+                "on": true,
+                "brightness": 83
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "59735b7f-17b0-4d5f-8a76-593ad0207536": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "outlet1",
+                "nicknames": [
+                    "outlet1"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED",
+                "on": true,
+                "brightness": 83
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "c6c1ede3-c149-42ac-bfb5-0a0a41c7eb43": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "outlet1",
+                "nicknames": [
+                    "outlet1"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED",
+                "on": true,
+                "brightness": 83
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "ff7418df-2f6c-423d-b360-2203a8d897c4": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop",
+                "action.devices.traits.Timer"
+            ],
+            "name": {
+                "name": "Sprinkler1",
+                "defaultNames": [
+                    "Sprinkler1"
+                ],
+                "nicknames": [
+                    "Sprinkler1"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "pausable": true,
+                "availableZones": [],
+                "maxTimerLimitSec": 1200,
+                "commandOnlyTimer": false
+            },
+            "states": {
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED",
+                "timerRemainingSec": 940,
+                "timerPaused": false,
+                "isPaused": false,
+                "isRunning": true,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "67a6a3e2-769a-47e0-8699-80214c7eb642": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff",
+                "action.devices.traits.Brightness",
+                "action.devices.traits.ColorSetting",
+                "action.devices.traits.LightEffects"
+            ],
+            "name": {
+                "name": "light2",
+                "nicknames": [
+                    "light2"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false,
+                "commandOnlyBrightness": false,
+                "commandOnlyColorSetting": false,
+                "colorModel": "rgb",
+                "colorTemperatureRange": {
+                    "temperatureMinK": 2000,
+                    "temperatureMaxK": 9000
+                },
+                "defaultSleepDuration": 1800,
+                "defaultWakeDuration": 1800,
+                "supportedEffects": [
+                    "colorLoop",
+                    "wake",
+                    "sleep"
+                ]
+            },
+            "states": {
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED",
+                "brightness": 100,
+                "color": {
+                    "temperatureK": 7500
+                },
+                "activeLightEffect": "",
+                "lightEffectEndUnixTimestampSec": 0,
+                "id": "",
+                "activeEmulatedLightEffect": "",
+                "emulatedLightEffectEndUnixTimestampSec": 0,
+                "expectedEmulatedEffectBrightness": {},
+                "expectedEmulatedEffectColorSetting": {},
+                "on": false
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "00e03038-f5b7-465c-b541-13c9cb9c4f29": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "outlet1",
+                "nicknames": [
+                    "outlet1"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED",
+                "on": true,
+                "brightness": 83
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "a7ba3b5e-848d-4c39-9b74-1e97e310d479": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "outlet1",
+                "nicknames": [
+                    "outlet1"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED",
+                "on": true,
+                "brightness": 83
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "137e1b44-144c-4604-8621-b1ad9fceb09e": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "outlet1",
+                "nicknames": [
+                    "outlet1"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED",
+                "on": true,
+                "brightness": 83
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "f09de8a3-fb62-4674-99fe-4477264e5f65": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "outlet1",
+                "nicknames": [
+                    "outlet1"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED",
+                "on": true,
+                "brightness": 83
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "8247eed9-7900-4383-be15-96c55826e1a1": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "outlet1",
+                "nicknames": [
+                    "outlet1"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED",
+                "on": true,
+                "brightness": 83
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        }
+    }
 }
