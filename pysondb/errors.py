@@ -70,3 +70,11 @@ class MalformedIdGeneratorError(Exception):
 
     def __str__(self) -> str:
         return str(self.message)
+
+
+class InvalidUserError(Exception):
+    def __init__(self, message: str) -> None:
+        self.message = message
+
+    def __str__(self) -> str:
+        return str(self.message)

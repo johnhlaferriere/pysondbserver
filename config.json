@@ -1,19 +1,47 @@
 {
-  "host": "localhost",
-  "port": 9999,
-  "path": "database",
-  "databases": [
-    {
-      "name": "testfile",
-      "filename": "testfile.json"
-    },
-    {
-      "name": "testfile2",
-      "filename": "testfile2.json"
-    },
-    {
-      "name": "testfile3",
-      "filename": "testfile3.json"
-    }
-  ]
+    "host": "localhost",
+    "port": 9999,
+    "path": "database",
+    "users": [
+        {
+            "user": "test",
+            "passwd": "eNorSS0uKUgsLi7PL0opAbIBOxcG9A==",
+            "access": [
+                "testfile",
+                "testfile2",
+                "testfile3",
+                "google"
+            ]
+        }
+    ],
+    "databases": [
+        {
+            "name": "testfile",
+            "filename": "testfile.json"
+        },
+        {
+            "name": "testfile2",
+            "filename": "testfile2.json"
+        },
+        {
+            "name": "testfile3",
+            "filename": "testfile3.json"
+        },
+        {
+            "name": "test",
+            "filename": "test.json"
+        },
+        {
+            "name": "test",
+            "filename": "test.json"
+        },
+      {
+        "name": "test",
+        "filename": "test.json"
+      },
+      {
+        "name": "google",
+        "filename": "google.json"
+      }
+    ]
 }

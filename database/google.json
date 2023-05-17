@@ -1,0 +1,5642 @@
+{
+    "version": 2,
+    "keys": {
+        "devices": [
+            "attributes",
+            "name",
+            "roomHint",
+            "states",
+            "suv",
+            "traits",
+            "type",
+            "willReportState"
+        ]
+    },
+    "devices": {
+        "f560054d-095c-4765-be40-2f6c46808d11": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Fence Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "c32a2a7c-dabd-4e34-aa9a-f9dd30c980c9": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Grape Vine Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "71db3b02-fa75-4a30-84bc-6e58285d1b34": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Yard Audio",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "4b224596-7f86-49c5-b4a4-34284ffd400f": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Box Lights (front)",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "aa5899a2-a5b3-47af-ab26-a315a28f0080": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Cherry Tree Speakers",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "8e2c707b-3e25-438a-b499-8edcd5117e33": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff",
+                "action.devices.traits.ColorSetting"
+            ],
+            "name": {
+                "name": "Pool Lights",
+                "defaultNames": [
+                    "Pool Lights"
+                ],
+                "nicknames": [
+                    "Pool Lights"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false,
+                "commandOnlyColorSetting": false,
+                "colorModel": "rgb",
+                "colorTemperatureRange": {
+                    "temperatureMinK": 2000,
+                    "temperatureMaxK": 5000
+                }
+            },
+            "states": {
+                "on": false,
+                "color": {
+                    "spectrumRgb": 16711935
+                },
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "b58bb38d-e9bd-481f-8084-070dd219aad7": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pool Pump",
+                "defaultNames": [
+                    "Pool Pump"
+                ],
+                "nicknames": [
+                    "Pool Pump"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "0e90657c-2eb7-489d-a9b7-332ef49f84f2": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Back Yard Zone 2",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "43e0baa3-fb59-4fed-8a7d-64c57324e044": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pool Oxidizer",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "91cffc1c-fae6-46fe-bf33-275020822c5e": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Garden Zone 4",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Garden Sprinklers",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "7d2bcd51-0633-4078-8aab-17daa0f5c4ca": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pump House Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "0baf88fd-6c82-4864-ad73-5abe8ca14c51": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Waterfall Outlet",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "69dae4ea-e81b-446f-82ec-d0493897ec8a": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff",
+                "action.devices.traits.Toggles"
+            ],
+            "name": {
+                "name": "Water Treatment",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false,
+                "availableToggles": [
+                    {
+                        "name": "sterilization_toggle",
+                        "name_values": [
+                            {
+                                "name_synonym": [
+                                    "Clean",
+                                    "Bio clean"
+                                ],
+                                "lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "energysaving_toggle",
+                        "name_values": [
+                            {
+                                "name_synonym": [
+                                    "Energy saving",
+                                    "Eco"
+                                ],
+                                "lang": "en"
+                            }
+                        ]
+                    }
+                ],
+                "commandOnlyToggles": false,
+                "queryOnlyToggles": false
+            },
+            "states": {
+                "on": false,
+                "currentToggleSettings": {
+                    "sterilization_toggle": true,
+                    "energysaving_toggle": false
+                },
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "eeb279f8-a386-4986-8918-667de0770332": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Garden Raised Bed",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Garden Sprinkler",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "2d9a5779-ec18-419b-bb2f-c70b4353ef1d": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Box Outlets",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "fa7f712a-3657-494e-972b-23dc4b3fee8e": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Grape Vine Speakers",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "44732d3b-7f18-4407-8828-c27b87be11fe": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Box Lights (back)",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "d4d38d34-89c8-494c-b907-7e7904cc4529": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Cabana Deck Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "08d5526d-29eb-467b-aa79-e9cf2f342ab7": {
+            "type": "action.devices.types.VALVE",
+            "traits": [
+                "action.devices.traits.OpenClose"
+            ],
+            "name": {
+                "name": "Pool Water Supply",
+                "defaultNames": [
+                    "Pool water Supply"
+                ],
+                "nicknames": [
+                    "Pool Water Supply"
+                ]
+            },
+            "willReportState": true,
+            "attributes": {
+                "commandOnlyOpenClose": false,
+                "discreteOnlyOpenClose": true,
+                "openDirection": [
+                    "IN"
+                ],
+                "queryOnlyOpenClose": false
+            },
+            "states": {
+                "openPercent": 0,
+                "openDirection": "",
+                "openState": [],
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "d7216829-6025-4a04-a9e8-1a3ab0291477": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pool Deck Speakers",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "13e39156-5d0d-49aa-aa88-8a129d8d1469": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Raised Box Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "c04969e3-147c-45cc-ad02-4ff160219eec": {
+            "type": "action.devices.types.FAN",
+            "traits": [
+                "action.devices.traits.FanSpeed",
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pump House Fan",
+                "defaultNames": [
+                    "Pump House Fan"
+                ],
+                "nicknames": [
+                    "Pump House Fan"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "reversible": false,
+                "commandOnlyFanSpeed": false,
+                "supportsFanSpeedPercent": false,
+                "availableFanSpeeds": {
+                    "speeds": [
+                        {
+                            "speed_name": "speed_low",
+                            "speed_values": [
+                                {
+                                    "speed_synonym": [
+                                        "low",
+                                        "slow"
+                                    ],
+                                    "lang": "en"
+                                }
+                            ]
+                        },
+                        {
+                            "speed_name": "speed_high",
+                            "speed_values": [
+                                {
+                                    "speed_synonym": [
+                                        "high",
+                                        "fast"
+                                    ],
+                                    "lang": "en"
+                                }
+                            ]
+                        }
+                    ],
+                    "ordered": true
+                },
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "currentFanSpeedSetting": "speed_low",
+                "currentFanSpeedPercent": -1,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "48e08f90-bcd9-496d-baa6-862860ebb7aa": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Back Yard Zone 3",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Yard Sprinklers ",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "0644aa88-0ac5-4b03-943a-4cc6b658581f": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Cherry Tree Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "26020847-09cf-4055-b213-1bb90e0f22e5": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pool Speakers",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "146b358f-8447-46e0-a31a-67d553ef1f21": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Garden Outlet",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "c69ef2b3-1d4e-4991-a801-dc0b65e049bf": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Garden Zone 2",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Garden Sprinklers",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "6394d7b8-583a-4e74-ba69-071bb9aaed09": {
+            "type": "action.devices.types.THERMOSTAT",
+            "traits": [
+                "action.devices.traits.TemperatureSetting"
+            ],
+            "name": {
+                "name": "Pool Temperature",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "availableThermostatModes": [
+                    "auto"
+                ],
+                "thermostatTemperatureUnit": "F",
+                "commandOnlyTemperatureSetting": false,
+                "queryOnlyTemperatureSetting": true,
+                "bufferRangeCelsius": 2,
+                "thermostatTemperatureRange": {
+                    "minThresholdCelsius": 20,
+                    "maxThresholdCelsius": 30
+                },
+                "_lastThermostatMode": "auto"
+            },
+            "states": {
+                "thermostatMode": "auto",
+                "thermostatTemperatureSetpoint": 26,
+                "thermostatTemperatureAmbient": 100,
+                "thermostatTemperatureSetpointHigh": 0,
+                "thermostatTemperatureSetpointLow": 0,
+                "thermostatHumidityAmbient": 0,
+                "activeThermostatMode": "none",
+                "targetTempReachedEstimateUnixTimestampSec": 1680717206,
+                "thermostatTemperaturePreset": "",
+                "activeThermostatTemperatureHold": {},
+                "thermostatActivityStatus": [],
+                "activeThermostatTemperatureSensorIds": [],
+                "thermostatAverageTemperatureAmbient": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "bd3db0f8-a86b-4174-a6bb-a2a6d2b67d96": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Garden Zone 1",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Garden Sprinklers",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "cb7bc0f3-f5f5-4871-b4b1-f1968a23cd80": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Garden Zone 3",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Garden Sprinklers",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "94c57749-4a76-431d-b178-0a6371e31b44": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Back Yard Zone 1",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "e81ebd66-db5e-443c-b288-4bdac51969a6": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff",
+                "action.devices.traits.Toggles"
+            ],
+            "name": {
+                "name": "Pool Ionizer",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false,
+                "availableToggles": [
+                    {
+                        "name": "filter_toggle",
+                        "name_values": [
+                            {
+                                "name_synonym": [
+                                    "filtered",
+                                    "filter"
+                                ],
+                                "lang": "en"
+                            }
+                        ]
+                    }
+                ],
+                "commandOnlyToggles": false,
+                "queryOnlyToggles": false
+            },
+            "states": {
+                "on": false,
+                "currentToggleSettings": {
+                    "filter_toggle": false
+                },
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "4990bb11-3f93-4be6-80b4-519f363eb1a0": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Fence Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "579c4983-681d-41f4-9a47-853c09c2ff24": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Grape Vine Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "acb5ee74-5735-44ac-b01c-3699ecf40973": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Yard Audio",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "89e85912-a29f-4847-970b-b756a96b4ea0": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Box Lights (front)",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "b2a98776-1404-4c3d-b67b-2e89eaf160bc": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Cherry Tree Speakers",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "8bba9821-7d2c-4f57-8eb6-3108cba80d4d": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff",
+                "action.devices.traits.ColorSetting"
+            ],
+            "name": {
+                "name": "Pool Lights",
+                "defaultNames": [
+                    "Pool Lights"
+                ],
+                "nicknames": [
+                    "Pool Lights"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false,
+                "commandOnlyColorSetting": false,
+                "colorModel": "rgb",
+                "colorTemperatureRange": {
+                    "temperatureMinK": 2000,
+                    "temperatureMaxK": 5000
+                }
+            },
+            "states": {
+                "on": false,
+                "color": {
+                    "spectrumRgb": 16711935
+                },
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "d298ff4b-d095-4ae6-b4c5-3ee9888f813c": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pool Pump",
+                "defaultNames": [
+                    "Pool Pump"
+                ],
+                "nicknames": [
+                    "Pool Pump"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "2b09a2a4-abb6-4bbd-8881-17f9ff866080": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Back Yard Zone 2",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "6eaa0c44-f2db-478c-9537-a619e1da6b62": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pool Oxidizer",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "4615aba0-d852-4974-9f86-1aef4a987261": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Garden Zone 4",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Garden Sprinklers",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "6eeaf9ed-ca35-4e1a-8e28-92e519524260": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pump House Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "cfb1187b-6f64-4d0e-bbaa-e4870a7b7214": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Waterfall Outlet",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "40b70d73-81d2-4335-bff3-ddc4a0f7add0": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff",
+                "action.devices.traits.Toggles"
+            ],
+            "name": {
+                "name": "Water Treatment",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false,
+                "availableToggles": [
+                    {
+                        "name": "sterilization_toggle",
+                        "name_values": [
+                            {
+                                "name_synonym": [
+                                    "Clean",
+                                    "Bio clean"
+                                ],
+                                "lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "energysaving_toggle",
+                        "name_values": [
+                            {
+                                "name_synonym": [
+                                    "Energy saving",
+                                    "Eco"
+                                ],
+                                "lang": "en"
+                            }
+                        ]
+                    }
+                ],
+                "commandOnlyToggles": false,
+                "queryOnlyToggles": false
+            },
+            "states": {
+                "on": false,
+                "currentToggleSettings": {
+                    "sterilization_toggle": true,
+                    "energysaving_toggle": false
+                },
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "01ebcc62-92c1-40fd-9236-067da84c0db8": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Garden Raised Bed",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Garden Sprinkler",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "dc1bdc47-b9e1-4c89-ac43-b93924ce2673": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Box Outlets",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "3f782af6-1a75-433a-943a-828e9919a322": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Grape Vine Speakers",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "c605da0b-8cbe-48d8-8829-a58d685f443d": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Box Lights (back)",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "615f2155-488a-4b52-b9de-d6bc5eb5c96f": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Cabana Deck Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "f5573c1e-a8ad-4934-bc04-81e651766597": {
+            "type": "action.devices.types.VALVE",
+            "traits": [
+                "action.devices.traits.OpenClose"
+            ],
+            "name": {
+                "name": "Pool Water Supply",
+                "defaultNames": [
+                    "Pool water Supply"
+                ],
+                "nicknames": [
+                    "Pool Water Supply"
+                ]
+            },
+            "willReportState": true,
+            "attributes": {
+                "commandOnlyOpenClose": false,
+                "discreteOnlyOpenClose": true,
+                "openDirection": [
+                    "IN"
+                ],
+                "queryOnlyOpenClose": false
+            },
+            "states": {
+                "openPercent": 0,
+                "openDirection": "",
+                "openState": [],
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "a6e47118-ca2e-48b3-bd94-9c49cc809ab9": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pool Deck Speakers",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "1ba9ed5c-b3fa-459a-9185-0cbdcd63bba7": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Raised Box Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "cac6aaa0-b0a9-4acb-b283-044fb81246d9": {
+            "type": "action.devices.types.FAN",
+            "traits": [
+                "action.devices.traits.FanSpeed",
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pump House Fan",
+                "defaultNames": [
+                    "Pump House Fan"
+                ],
+                "nicknames": [
+                    "Pump House Fan"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "reversible": false,
+                "commandOnlyFanSpeed": false,
+                "supportsFanSpeedPercent": false,
+                "availableFanSpeeds": {
+                    "speeds": [
+                        {
+                            "speed_name": "speed_low",
+                            "speed_values": [
+                                {
+                                    "speed_synonym": [
+                                        "low",
+                                        "slow"
+                                    ],
+                                    "lang": "en"
+                                }
+                            ]
+                        },
+                        {
+                            "speed_name": "speed_high",
+                            "speed_values": [
+                                {
+                                    "speed_synonym": [
+                                        "high",
+                                        "fast"
+                                    ],
+                                    "lang": "en"
+                                }
+                            ]
+                        }
+                    ],
+                    "ordered": true
+                },
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "currentFanSpeedSetting": "speed_low",
+                "currentFanSpeedPercent": -1,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "79cda3e7-53d1-4d9e-bbab-3500a4349009": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Back Yard Zone 3",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Yard Sprinklers ",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "7a7f6e0c-82e1-44af-99d7-61460cb4df49": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Cherry Tree Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "1a27935f-3fce-4fe0-bdce-7f0517287c9f": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pool Speakers",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "1bddfbe9-d352-4b29-b92c-53b138c9de7d": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Garden Outlet",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "384bcaf6-a5dd-4979-936e-5599911ef068": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Garden Zone 2",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Garden Sprinklers",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "48b55504-53da-437a-9597-2fe42147009a": {
+            "type": "action.devices.types.THERMOSTAT",
+            "traits": [
+                "action.devices.traits.TemperatureSetting"
+            ],
+            "name": {
+                "name": "Pool Temperature",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "availableThermostatModes": [
+                    "auto"
+                ],
+                "thermostatTemperatureUnit": "F",
+                "commandOnlyTemperatureSetting": false,
+                "queryOnlyTemperatureSetting": true,
+                "bufferRangeCelsius": 2,
+                "thermostatTemperatureRange": {
+                    "minThresholdCelsius": 20,
+                    "maxThresholdCelsius": 30
+                },
+                "_lastThermostatMode": "auto"
+            },
+            "states": {
+                "thermostatMode": "auto",
+                "thermostatTemperatureSetpoint": 26,
+                "thermostatTemperatureAmbient": 100,
+                "thermostatTemperatureSetpointHigh": 0,
+                "thermostatTemperatureSetpointLow": 0,
+                "thermostatHumidityAmbient": 0,
+                "activeThermostatMode": "none",
+                "targetTempReachedEstimateUnixTimestampSec": 1680717206,
+                "thermostatTemperaturePreset": "",
+                "activeThermostatTemperatureHold": {},
+                "thermostatActivityStatus": [],
+                "activeThermostatTemperatureSensorIds": [],
+                "thermostatAverageTemperatureAmbient": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "aede5dc5-53c7-4870-90bd-4fa84194678e": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Garden Zone 1",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Garden Sprinklers",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "058a7bc3-92cb-4375-bbc5-0d8f20edeed7": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Garden Zone 3",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Garden Sprinklers",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "be4a1283-15ca-4208-bfe9-4469bcf12ee0": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Back Yard Zone 1",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "885138fa-df7a-4d13-ba95-724512d56503": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff",
+                "action.devices.traits.Toggles"
+            ],
+            "name": {
+                "name": "Pool Ionizer",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false,
+                "availableToggles": [
+                    {
+                        "name": "filter_toggle",
+                        "name_values": [
+                            {
+                                "name_synonym": [
+                                    "filtered",
+                                    "filter"
+                                ],
+                                "lang": "en"
+                            }
+                        ]
+                    }
+                ],
+                "commandOnlyToggles": false,
+                "queryOnlyToggles": false
+            },
+            "states": {
+                "on": false,
+                "currentToggleSettings": {
+                    "filter_toggle": false
+                },
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "36662b4b-8ef5-4b64-9351-d6a13f4b4a88": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Fence Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "7b6889c5-b936-414d-953a-b577b16742d9": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Grape Vine Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "2015f5e6-a824-4782-a535-2c76eb39712e": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Yard Audio",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "2b22226e-8c67-4595-b1a0-4598e7214756": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Box Lights (front)",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "c7bd2a73-218b-43f3-bcb0-9765f3cd6794": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Cherry Tree Speakers",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "921ab185-82c3-4ec2-ad97-139b19187a37": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff",
+                "action.devices.traits.ColorSetting"
+            ],
+            "name": {
+                "name": "Pool Lights",
+                "defaultNames": [
+                    "Pool Lights"
+                ],
+                "nicknames": [
+                    "Pool Lights"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false,
+                "commandOnlyColorSetting": false,
+                "colorModel": "rgb",
+                "colorTemperatureRange": {
+                    "temperatureMinK": 2000,
+                    "temperatureMaxK": 5000
+                }
+            },
+            "states": {
+                "on": false,
+                "color": {
+                    "spectrumRgb": 16711935
+                },
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "bd2415fc-37eb-4fee-94d5-139edc421c21": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pool Pump",
+                "defaultNames": [
+                    "Pool Pump"
+                ],
+                "nicknames": [
+                    "Pool Pump"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "aa7de8ee-beaf-487b-9f02-a970a816f92d": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Back Yard Zone 2",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "fd851d69-4b2c-46a9-abf8-c3c65c145f87": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pool Oxidizer",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "c3d74450-a10f-4ad8-b769-37d646a67a0c": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Garden Zone 4",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Garden Sprinklers",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "7a53ad19-5977-4ec0-9d10-14ed2284853d": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pump House Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "903efca7-0992-43db-b673-dee19d24d497": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Waterfall Outlet",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "9ac289fe-3779-40da-96fd-52e2e0b60f80": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff",
+                "action.devices.traits.Toggles"
+            ],
+            "name": {
+                "name": "Water Treatment",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false,
+                "availableToggles": [
+                    {
+                        "name": "sterilization_toggle",
+                        "name_values": [
+                            {
+                                "name_synonym": [
+                                    "Clean",
+                                    "Bio clean"
+                                ],
+                                "lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "energysaving_toggle",
+                        "name_values": [
+                            {
+                                "name_synonym": [
+                                    "Energy saving",
+                                    "Eco"
+                                ],
+                                "lang": "en"
+                            }
+                        ]
+                    }
+                ],
+                "commandOnlyToggles": false,
+                "queryOnlyToggles": false
+            },
+            "states": {
+                "on": false,
+                "currentToggleSettings": {
+                    "sterilization_toggle": true,
+                    "energysaving_toggle": false
+                },
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "60303b4f-e0fd-423f-bf2b-7817e18ab6b7": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Garden Raised Bed",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Garden Sprinkler",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "f7ad3f09-c869-42f9-95a1-a0a8b950406f": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Box Outlets",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "7f1743a3-5560-4cd4-bfc6-78e4d3376787": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Grape Vine Speakers",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "bedca3a1-79e2-4a20-8777-f60c72b53b92": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Box Lights (back)",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "3e033cfd-462d-4a09-a58c-dee1504e2a10": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Cabana Deck Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "77188ab2-d28d-4700-8f7b-138712098940": {
+            "type": "action.devices.types.VALVE",
+            "traits": [
+                "action.devices.traits.OpenClose"
+            ],
+            "name": {
+                "name": "Pool Water Supply",
+                "defaultNames": [
+                    "Pool water Supply"
+                ],
+                "nicknames": [
+                    "Pool Water Supply"
+                ]
+            },
+            "willReportState": true,
+            "attributes": {
+                "commandOnlyOpenClose": false,
+                "discreteOnlyOpenClose": true,
+                "openDirection": [
+                    "IN"
+                ],
+                "queryOnlyOpenClose": false
+            },
+            "states": {
+                "openPercent": 0,
+                "openDirection": "",
+                "openState": [],
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "698d50ea-e73d-4842-939e-1f3444357056": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pool Deck Speakers",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "799bc588-497c-42e1-8fe6-6f7a1b8ebc1c": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Raised Box Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "6c7319dc-ac7d-4bde-8b11-19f1c5e59f15": {
+            "type": "action.devices.types.FAN",
+            "traits": [
+                "action.devices.traits.FanSpeed",
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pump House Fan",
+                "defaultNames": [
+                    "Pump House Fan"
+                ],
+                "nicknames": [
+                    "Pump House Fan"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "reversible": false,
+                "commandOnlyFanSpeed": false,
+                "supportsFanSpeedPercent": false,
+                "availableFanSpeeds": {
+                    "speeds": [
+                        {
+                            "speed_name": "speed_low",
+                            "speed_values": [
+                                {
+                                    "speed_synonym": [
+                                        "low",
+                                        "slow"
+                                    ],
+                                    "lang": "en"
+                                }
+                            ]
+                        },
+                        {
+                            "speed_name": "speed_high",
+                            "speed_values": [
+                                {
+                                    "speed_synonym": [
+                                        "high",
+                                        "fast"
+                                    ],
+                                    "lang": "en"
+                                }
+                            ]
+                        }
+                    ],
+                    "ordered": true
+                },
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "currentFanSpeedSetting": "speed_low",
+                "currentFanSpeedPercent": -1,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "5152d91a-8f2d-4dbd-8f3d-f902297db337": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Back Yard Zone 3",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Yard Sprinklers ",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "d9c2699c-4a04-4aa7-b35f-453415c93453": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Cherry Tree Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "ef5ede42-6506-4982-9a0c-dfe878319920": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pool Speakers",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "4858989a-66ca-4555-81db-d3e3c4e029c6": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Garden Outlet",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "810d4d25-8b65-4ed8-9505-e3025c4d866e": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Garden Zone 2",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Garden Sprinklers",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "64452b26-4fd1-49a5-a38f-fa5c9f9352c9": {
+            "type": "action.devices.types.THERMOSTAT",
+            "traits": [
+                "action.devices.traits.TemperatureSetting"
+            ],
+            "name": {
+                "name": "Pool Temperature",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "availableThermostatModes": [
+                    "auto"
+                ],
+                "thermostatTemperatureUnit": "F",
+                "commandOnlyTemperatureSetting": false,
+                "queryOnlyTemperatureSetting": true,
+                "bufferRangeCelsius": 2,
+                "thermostatTemperatureRange": {
+                    "minThresholdCelsius": 20,
+                    "maxThresholdCelsius": 30
+                },
+                "_lastThermostatMode": "auto"
+            },
+            "states": {
+                "thermostatMode": "auto",
+                "thermostatTemperatureSetpoint": 26,
+                "thermostatTemperatureAmbient": 100,
+                "thermostatTemperatureSetpointHigh": 0,
+                "thermostatTemperatureSetpointLow": 0,
+                "thermostatHumidityAmbient": 0,
+                "activeThermostatMode": "none",
+                "targetTempReachedEstimateUnixTimestampSec": 1680717206,
+                "thermostatTemperaturePreset": "",
+                "activeThermostatTemperatureHold": {},
+                "thermostatActivityStatus": [],
+                "activeThermostatTemperatureSensorIds": [],
+                "thermostatAverageTemperatureAmbient": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "0d2358bc-230a-4331-a419-f3893cd10937": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Garden Zone 1",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Garden Sprinklers",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "302bd1ad-080e-4a27-822b-7d94397505d3": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Garden Zone 3",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Garden Sprinklers",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "477b4a58-5f14-4ee4-9991-ed435bf7d508": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Back Yard Zone 1",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "7e483a91-2a6c-4174-a9f1-3a05e47a7fbf": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff",
+                "action.devices.traits.Toggles"
+            ],
+            "name": {
+                "name": "Pool Ionizer",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false,
+                "availableToggles": [
+                    {
+                        "name": "filter_toggle",
+                        "name_values": [
+                            {
+                                "name_synonym": [
+                                    "filtered",
+                                    "filter"
+                                ],
+                                "lang": "en"
+                            }
+                        ]
+                    }
+                ],
+                "commandOnlyToggles": false,
+                "queryOnlyToggles": false
+            },
+            "states": {
+                "on": false,
+                "currentToggleSettings": {
+                    "filter_toggle": false
+                },
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "357882e8-3293-49ea-aab5-9ff3707955bc": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Fence Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "2d4cde47-3a30-481f-9665-265f7d1f2923": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Grape Vine Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "388a5ea3-eb8a-4aa0-b9c8-bc3e4ba454b2": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Yard Audio",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "db1babc8-26bf-4070-ba73-1b1fe980f32c": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Box Lights (front)",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "cc7fd3da-3d78-4f18-bf67-5bde65182503": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Cherry Tree Speakers",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "865220e2-3e8e-4e13-9ea7-9d1a13a2fded": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff",
+                "action.devices.traits.ColorSetting"
+            ],
+            "name": {
+                "name": "Pool Lights",
+                "defaultNames": [
+                    "Pool Lights"
+                ],
+                "nicknames": [
+                    "Pool Lights"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false,
+                "commandOnlyColorSetting": false,
+                "colorModel": "rgb",
+                "colorTemperatureRange": {
+                    "temperatureMinK": 2000,
+                    "temperatureMaxK": 5000
+                }
+            },
+            "states": {
+                "on": false,
+                "color": {
+                    "spectrumRgb": 16711935
+                },
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "0ceaa715-4db8-4737-998e-b14c5367256b": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pool Pump",
+                "defaultNames": [
+                    "Pool Pump"
+                ],
+                "nicknames": [
+                    "Pool Pump"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "d936ff01-192d-46af-b3a8-38dbf96c4800": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Back Yard Zone 2",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "10344070-4b90-42cd-9ae7-4b8f830f851a": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pool Oxidizer",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "a4fbe9bf-3e4e-47c4-8004-6db6f5d70984": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Garden Zone 4",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Garden Sprinklers",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "a564657e-c181-4e93-9810-eb6433f17072": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pump House Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "dc19bc32-213a-4a78-b91e-c03cbe7e1b56": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Waterfall Outlet",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "19b0c496-3dd0-48d0-b9ad-c839f4e55521": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff",
+                "action.devices.traits.Toggles"
+            ],
+            "name": {
+                "name": "Water Treatment",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false,
+                "availableToggles": [
+                    {
+                        "name": "sterilization_toggle",
+                        "name_values": [
+                            {
+                                "name_synonym": [
+                                    "Clean",
+                                    "Bio clean"
+                                ],
+                                "lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "energysaving_toggle",
+                        "name_values": [
+                            {
+                                "name_synonym": [
+                                    "Energy saving",
+                                    "Eco"
+                                ],
+                                "lang": "en"
+                            }
+                        ]
+                    }
+                ],
+                "commandOnlyToggles": false,
+                "queryOnlyToggles": false
+            },
+            "states": {
+                "on": false,
+                "currentToggleSettings": {
+                    "sterilization_toggle": true,
+                    "energysaving_toggle": false
+                },
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "5a24e871-c927-40d2-84da-25c16869af15": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Garden Raised Bed",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Garden Sprinkler",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "f1d183d7-6862-4e9b-99d8-8a1d9b79c255": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Box Outlets",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "333e56ee-3d23-4c47-a608-7adb0ac5b0b3": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Grape Vine Speakers",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "0ec1e4f2-fd66-40ed-a580-da62ac6afa31": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Box Lights (back)",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "aa7b35fa-c4c0-43a8-9c7b-805f50cef8ff": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Cabana Deck Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "bac5a004-1139-43cb-bab5-f7be548d757c": {
+            "type": "action.devices.types.VALVE",
+            "traits": [
+                "action.devices.traits.OpenClose"
+            ],
+            "name": {
+                "name": "Pool Water Supply",
+                "defaultNames": [
+                    "Pool water Supply"
+                ],
+                "nicknames": [
+                    "Pool Water Supply"
+                ]
+            },
+            "willReportState": true,
+            "attributes": {
+                "commandOnlyOpenClose": false,
+                "discreteOnlyOpenClose": true,
+                "openDirection": [
+                    "IN"
+                ],
+                "queryOnlyOpenClose": false
+            },
+            "states": {
+                "openPercent": 0,
+                "openDirection": "",
+                "openState": [],
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "9045295f-c478-45b8-a8b7-d6df852593b1": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pool Deck Speakers",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "438bda86-a133-4535-aa7e-12a2fbef6223": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Raised Box Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "6fe34b49-47e4-4763-a8b3-9540b8527928": {
+            "type": "action.devices.types.FAN",
+            "traits": [
+                "action.devices.traits.FanSpeed",
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pump House Fan",
+                "defaultNames": [
+                    "Pump House Fan"
+                ],
+                "nicknames": [
+                    "Pump House Fan"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "reversible": false,
+                "commandOnlyFanSpeed": false,
+                "supportsFanSpeedPercent": false,
+                "availableFanSpeeds": {
+                    "speeds": [
+                        {
+                            "speed_name": "speed_low",
+                            "speed_values": [
+                                {
+                                    "speed_synonym": [
+                                        "low",
+                                        "slow"
+                                    ],
+                                    "lang": "en"
+                                }
+                            ]
+                        },
+                        {
+                            "speed_name": "speed_high",
+                            "speed_values": [
+                                {
+                                    "speed_synonym": [
+                                        "high",
+                                        "fast"
+                                    ],
+                                    "lang": "en"
+                                }
+                            ]
+                        }
+                    ],
+                    "ordered": true
+                },
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "currentFanSpeedSetting": "speed_low",
+                "currentFanSpeedPercent": -1,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "1cc11038-c00b-4bed-9d96-7d1e02f1fb5d": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Back Yard Zone 3",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Yard Sprinklers ",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "3171267c-292a-4039-a004-6ed5fa05da51": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Cherry Tree Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "7622d803-e166-495e-8c80-cb6c95aa16d6": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pool Speakers",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "25752b6d-e916-4a5c-be8f-0a9d071c1b2f": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Garden Outlet",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "593d8b10-c60f-4bef-ba27-d6ab5e5c69a3": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Garden Zone 2",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Garden Sprinklers",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "c09894c3-3079-41f1-847a-34af8f0592eb": {
+            "type": "action.devices.types.THERMOSTAT",
+            "traits": [
+                "action.devices.traits.TemperatureSetting"
+            ],
+            "name": {
+                "name": "Pool Temperature",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "availableThermostatModes": [
+                    "auto"
+                ],
+                "thermostatTemperatureUnit": "F",
+                "commandOnlyTemperatureSetting": false,
+                "queryOnlyTemperatureSetting": true,
+                "bufferRangeCelsius": 2,
+                "thermostatTemperatureRange": {
+                    "minThresholdCelsius": 20,
+                    "maxThresholdCelsius": 30
+                },
+                "_lastThermostatMode": "auto"
+            },
+            "states": {
+                "thermostatMode": "auto",
+                "thermostatTemperatureSetpoint": 26,
+                "thermostatTemperatureAmbient": 100,
+                "thermostatTemperatureSetpointHigh": 0,
+                "thermostatTemperatureSetpointLow": 0,
+                "thermostatHumidityAmbient": 0,
+                "activeThermostatMode": "none",
+                "targetTempReachedEstimateUnixTimestampSec": 1680717206,
+                "thermostatTemperaturePreset": "",
+                "activeThermostatTemperatureHold": {},
+                "thermostatActivityStatus": [],
+                "activeThermostatTemperatureSensorIds": [],
+                "thermostatAverageTemperatureAmbient": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "b49ad49f-148d-4204-908c-00a991263df4": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Garden Zone 1",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Garden Sprinklers",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "f958aa8f-9e71-4c01-987a-483a45fa8ffd": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Garden Zone 3",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Garden Sprinklers",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "619ed4cb-d440-4788-b8d3-8e461621cb10": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Back Yard Zone 1",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "68988181-3a8a-462b-ba8c-762b28ea6100": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff",
+                "action.devices.traits.Toggles"
+            ],
+            "name": {
+                "name": "Pool Ionizer",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false,
+                "availableToggles": [
+                    {
+                        "name": "filter_toggle",
+                        "name_values": [
+                            {
+                                "name_synonym": [
+                                    "filtered",
+                                    "filter"
+                                ],
+                                "lang": "en"
+                            }
+                        ]
+                    }
+                ],
+                "commandOnlyToggles": false,
+                "queryOnlyToggles": false
+            },
+            "states": {
+                "on": false,
+                "currentToggleSettings": {
+                    "filter_toggle": false
+                },
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "9571b5ad-4abb-4fda-b918-ba58fa947f4f": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Fence Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "70343cf0-93fa-4296-8068-011aa20d11c8": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Grape Vine Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "5ee9c674-84fa-4d77-9f0f-4f8a95108781": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Yard Audio",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "9e2494da-a83f-43a9-b2e1-13aae9ea7ca3": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Box Lights (front)",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "b5bda178-a3a4-4b66-923a-0fb4a6f45a6d": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Cherry Tree Speakers",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "c25a3e90-d272-4bf9-8723-ad0178f620c3": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff",
+                "action.devices.traits.ColorSetting"
+            ],
+            "name": {
+                "name": "Pool Lights",
+                "defaultNames": [
+                    "Pool Lights"
+                ],
+                "nicknames": [
+                    "Pool Lights"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false,
+                "commandOnlyColorSetting": false,
+                "colorModel": "rgb",
+                "colorTemperatureRange": {
+                    "temperatureMinK": 2000,
+                    "temperatureMaxK": 5000
+                }
+            },
+            "states": {
+                "on": false,
+                "color": {
+                    "spectrumRgb": 16711935
+                },
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "0481fcbd-9dbe-4bf8-95e0-3f9d5dac82b0": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pool Pump",
+                "defaultNames": [
+                    "Pool Pump"
+                ],
+                "nicknames": [
+                    "Pool Pump"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "db91fc5a-b11a-4f9d-851f-a827606897f3": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Back Yard Zone 2",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "47ea7946-cf80-41d9-8325-519d11d699b1": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pool Oxidizer",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "aac384bf-70ea-4fc2-96d3-ac8af73572c2": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Garden Zone 4",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Garden Sprinklers",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "9a628ff8-1a84-45d0-a90d-6f57de9d62c3": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pump House Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "97849a8c-c6ed-407d-9160-7f36a827c506": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Waterfall Outlet",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "95afbf2f-4660-429e-931a-e777b8dd3bf1": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff",
+                "action.devices.traits.Toggles"
+            ],
+            "name": {
+                "name": "Water Treatment",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false,
+                "availableToggles": [
+                    {
+                        "name": "sterilization_toggle",
+                        "name_values": [
+                            {
+                                "name_synonym": [
+                                    "Clean",
+                                    "Bio clean"
+                                ],
+                                "lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "energysaving_toggle",
+                        "name_values": [
+                            {
+                                "name_synonym": [
+                                    "Energy saving",
+                                    "Eco"
+                                ],
+                                "lang": "en"
+                            }
+                        ]
+                    }
+                ],
+                "commandOnlyToggles": false,
+                "queryOnlyToggles": false
+            },
+            "states": {
+                "on": false,
+                "currentToggleSettings": {
+                    "sterilization_toggle": true,
+                    "energysaving_toggle": false
+                },
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "b5275fc5-9c8f-4799-8601-059944415c81": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Garden Raised Bed",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Garden Sprinkler",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "eae27172-6674-4a49-820a-c64fbe822640": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Box Outlets",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "354ff1fb-60d7-47d5-b941-5229198b9f4d": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Grape Vine Speakers",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "61ef4ca3-ae5a-4b67-8dd1-231da06f463f": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Box Lights (back)",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "ef9fe35b-2fc0-4f34-b918-ec86556f1fb6": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Cabana Deck Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "75240c05-1819-41f7-9c10-1f782ebbc4ff": {
+            "type": "action.devices.types.VALVE",
+            "traits": [
+                "action.devices.traits.OpenClose"
+            ],
+            "name": {
+                "name": "Pool Water Supply",
+                "defaultNames": [
+                    "Pool water Supply"
+                ],
+                "nicknames": [
+                    "Pool Water Supply"
+                ]
+            },
+            "willReportState": true,
+            "attributes": {
+                "commandOnlyOpenClose": false,
+                "discreteOnlyOpenClose": true,
+                "openDirection": [
+                    "IN"
+                ],
+                "queryOnlyOpenClose": false
+            },
+            "states": {
+                "openPercent": 0,
+                "openDirection": "",
+                "openState": [],
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "41fa3d1e-9dd3-4321-8d26-a3242d8e9e36": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pool Deck Speakers",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "d6456bca-eb35-4bbf-a08e-98b609ce9d98": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Raised Box Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "d723b271-a123-4d76-9623-883c671cb572": {
+            "type": "action.devices.types.FAN",
+            "traits": [
+                "action.devices.traits.FanSpeed",
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pump House Fan",
+                "defaultNames": [
+                    "Pump House Fan"
+                ],
+                "nicknames": [
+                    "Pump House Fan"
+                ]
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "reversible": false,
+                "commandOnlyFanSpeed": false,
+                "supportsFanSpeedPercent": false,
+                "availableFanSpeeds": {
+                    "speeds": [
+                        {
+                            "speed_name": "speed_low",
+                            "speed_values": [
+                                {
+                                    "speed_synonym": [
+                                        "low",
+                                        "slow"
+                                    ],
+                                    "lang": "en"
+                                }
+                            ]
+                        },
+                        {
+                            "speed_name": "speed_high",
+                            "speed_values": [
+                                {
+                                    "speed_synonym": [
+                                        "high",
+                                        "fast"
+                                    ],
+                                    "lang": "en"
+                                }
+                            ]
+                        }
+                    ],
+                    "ordered": true
+                },
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "currentFanSpeedSetting": "speed_low",
+                "currentFanSpeedPercent": -1,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "66ef5dd8-13b2-49e1-ab93-8b58be5e3737": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Back Yard Zone 3",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Yard Sprinklers ",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "dfcb5d66-7be9-4b13-9981-f4dbc7a7883a": {
+            "type": "action.devices.types.LIGHT",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Cherry Tree Lights",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "a06d8ac1-659b-4e76-ad77-b293d9b9e10e": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Pool Speakers",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "e457bafd-3405-420d-8975-1425ca03ed9f": {
+            "type": "action.devices.types.OUTLET",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "name": {
+                "name": "Garden Outlet",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false
+            },
+            "states": {
+                "on": false,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "b71219be-2136-4828-be3b-e6a7dddf9694": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Garden Zone 2",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Garden Sprinklers",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "fda05a5a-e237-43c8-b0f6-db0ea80900fe": {
+            "type": "action.devices.types.THERMOSTAT",
+            "traits": [
+                "action.devices.traits.TemperatureSetting"
+            ],
+            "name": {
+                "name": "Pool Temperature",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "availableThermostatModes": [
+                    "auto"
+                ],
+                "thermostatTemperatureUnit": "F",
+                "commandOnlyTemperatureSetting": false,
+                "queryOnlyTemperatureSetting": true,
+                "bufferRangeCelsius": 2,
+                "thermostatTemperatureRange": {
+                    "minThresholdCelsius": 20,
+                    "maxThresholdCelsius": 30
+                },
+                "_lastThermostatMode": "auto"
+            },
+            "states": {
+                "thermostatMode": "auto",
+                "thermostatTemperatureSetpoint": 26,
+                "thermostatTemperatureAmbient": 100,
+                "thermostatTemperatureSetpointHigh": 0,
+                "thermostatTemperatureSetpointLow": 0,
+                "thermostatHumidityAmbient": 0,
+                "activeThermostatMode": "none",
+                "targetTempReachedEstimateUnixTimestampSec": 1680717206,
+                "thermostatTemperaturePreset": "",
+                "activeThermostatTemperatureHold": {},
+                "thermostatActivityStatus": [],
+                "activeThermostatTemperatureSensorIds": [],
+                "thermostatAverageTemperatureAmbient": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "22e10a46-3541-46c2-bcaa-a110a15b14f8": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Garden Zone 1",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Garden Sprinklers",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "7aeb87d2-cfbc-467c-8532-c7f98e7da7dd": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Garden Zone 3",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Garden Sprinklers",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "c5314ecd-8288-4427-8a0c-f11f35c871e2": {
+            "type": "action.devices.types.SPRINKLER",
+            "traits": [
+                "action.devices.traits.StartStop"
+            ],
+            "name": {
+                "name": "Back Yard Zone 1",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "pausable": false,
+                "availableZones": [
+                    "kitchen",
+                    "bedroom",
+                    "living room"
+                ]
+            },
+            "states": {
+                "isPaused": false,
+                "isRunning": false,
+                "activeZones": [],
+                "expectedStartStopCompletionUnixTimestampSec": 0,
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        },
+        "093d2f66-40ad-43ff-ad0c-1dfaf3166a42": {
+            "type": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff",
+                "action.devices.traits.Toggles"
+            ],
+            "name": {
+                "name": "Pool Ionizer",
+                "defaultNames": [],
+                "nicknames": []
+            },
+            "willReportState": true,
+            "roomHint": "Playground",
+            "attributes": {
+                "commandOnlyOnOff": false,
+                "queryOnlyOnOff": false,
+                "availableToggles": [
+                    {
+                        "name": "filter_toggle",
+                        "name_values": [
+                            {
+                                "name_synonym": [
+                                    "filtered",
+                                    "filter"
+                                ],
+                                "lang": "en"
+                            }
+                        ]
+                    }
+                ],
+                "commandOnlyToggles": false,
+                "queryOnlyToggles": false
+            },
+            "states": {
+                "on": false,
+                "currentToggleSettings": {
+                    "filter_toggle": false
+                },
+                "online": true,
+                "onlineStatusDetails": "STATE_UNSPECIFIED"
+            },
+            "suv": {
+                "enabled": false,
+                "challengeType": "pinNeeded",
+                "pincode": "1234",
+                "allowRetry": false,
+                "rejectErrorCode": "pinIncorrect"
+            }
+        }
+    }
+}

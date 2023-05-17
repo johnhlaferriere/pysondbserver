@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\database",
     "\\pysondb"
   ],
+  "SelectedNode": "\\pysondb\\pysondb_server.py",
   "PreviewInSolutionExplorer": false
 }
